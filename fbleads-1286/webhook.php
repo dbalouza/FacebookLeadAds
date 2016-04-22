@@ -10,8 +10,6 @@ if ($verify_token === 'CrossR0@ds123') {
 
 $input = json_decode(file_get_contents('php://input'), true);
 
-foreach ($array as list($a, $b, $c)) 
-{
-    echo "A: $a; B: $b; C: $c\n";
-}
 
+
+error_log(print_r($input, true));
