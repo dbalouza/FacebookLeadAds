@@ -1,5 +1,5 @@
 <?php
-echo "hello world"
+echo "hello world";
 $challenge = $_REQUEST['hub_challenge'];
 $verify_token = $_REQUEST['hub_verify_token'];
 
