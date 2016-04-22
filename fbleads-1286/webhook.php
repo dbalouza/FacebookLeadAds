@@ -10,6 +10,6 @@ if ($verify_token === 'CrossR0@ds123') {
 
 $input = json_decode(file_get_contents('php://input'), true);
 
-echo (""Hellow o")
+echo (""Hello world");
 
 ?>
